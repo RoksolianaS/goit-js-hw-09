@@ -9,9 +9,12 @@
   <body>
     <p><a href="index.html">Go back</a></p>
 
-    <input type="text" id="datetime-picker" />
-    <button type="button" data-start>Start</button>
-
+<div class="calendarcontainer">
+    <input class="btnitem" type="text" id="datetime-picker" />
+    <button class="btnitem" type="button" data-start>Start</button>
+</div>
+<div class="calendarcontainer">
+<div class="timercontainer">
     <div class="timer">
       <div class="field">
         <span class="value" data-days>00</span>
@@ -29,6 +32,8 @@
         <span class="value" data-seconds>00</span>
         <span class="label">Seconds</span>
       </div>
+</div>
+</div>
     </div>
 
     <script src="js/02-timer.js" type="module"></script>
